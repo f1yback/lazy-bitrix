@@ -1,17 +1,17 @@
-#Lazy Bitrix24
+# Lazy Bitrix24
 Simple wrapper to better usage experience of Bitrix24 API
 
-##Installation
+## Installation
 Use composer require command
 
 `composer require f1yback/lazy-bitrix`
 
-##Usage
+## Usage
 
 Specify required keys for configuration `$credentials` array and request client.
 In application context: `domain` and `auth`; when using webhook: `domain`, `webhook` and `id`
 
-####Application context configuration
+#### Application context configuration
 ```
 $credentials = [
     'domain' => 'mycompany.bitrix24.com',
@@ -19,7 +19,7 @@ $credentials = [
 ]; 
 ```
 
-####Webhook configuration
+#### Webhook configuration
 ```   
 $credentials = [
     'domain' => 'mycompany.bitrix24.com',
