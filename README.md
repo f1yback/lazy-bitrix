@@ -1,5 +1,5 @@
 # Lazy Bitrix24
-Simple wrapper to better usage experience of Bitrix24 API
+Simple wrapper for better usage experience of Bitrix24 API
 
 ## Installation
 Use composer require command
