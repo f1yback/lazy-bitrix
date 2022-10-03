@@ -3,7 +3,7 @@
     "description": "Simple wrapper to better usage experience of Bitrix24 API",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.3",
         "guzzlehttp/guzzle": "7.5.x-dev",
